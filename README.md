@@ -4,7 +4,7 @@ An application written in C
 
 
 ## Description:
-You will write a program that uses multiple processes to simulate a swim mill to show the behavior of a fish swimming upstream. The swim mill is represented as a one-dimensional array such that each element indicates the distance from the shore. The fish will occupy one and only one of these elements. The presence of a fish is indicated by changing the integer in the specified element. For example, we can represent the fish by the character F. By default, we will have the fish swimming right in the middle of the stream.
+You will write a program that uses multiple processes to simulate a swim mill to show the behavior of a fish swimming upstream. The swim_mill is represented as a one-dimensional array such that each element indicates the distance from the shore. The fish will occupy one and only one of these elements. The presence of a fish is indicated by changing the integer in the specified element. For example, we can represent the fish by the character F. By default, we will have the fish swimming right in the middle of the stream.
 
 Somewhere upstream, a pellet is dropped into the stream. Our fish sees this pellet traveling towards it and moves sideways to enable its capture. If the pellet and the fish are in the same position at any point, the fish is said to have eaten the pellet. Of course, it is possible for our fish to miss the pellet if the fish cannot move close to it in time.
 
